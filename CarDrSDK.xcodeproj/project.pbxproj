@@ -118,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				E241EEA12A685A7F00456639 /* MySwiftClass.swift */,
-				E275402529F2FF1C00774987 /* model */,
 				E275402329F2FF0400774987 /* CarDrConnectionApi.swift */,
 				E275400529F2FE7700774987 /* CarDrSDK.h */,
 				E275400629F2FE7700774987 /* CarDrSDK.docc */,
@@ -141,13 +140,6 @@
 				C29AC9D716E90DD4A3AAE2EB /* Pods_CarDrSDK_CarDrSDKTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E275402529F2FF1C00774987 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

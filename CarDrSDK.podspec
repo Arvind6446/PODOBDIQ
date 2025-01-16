@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   # Metadata
   spec.name         = "CarDrSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.1"
   spec.summary      = "A library for scanning cars."
   spec.homepage     = "https://github.com/Arvind6446/PODOBDIQ"
 
