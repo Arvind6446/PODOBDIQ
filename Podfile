@@ -6,6 +6,9 @@ target 'CarDrSDK' do
   use_frameworks!
 
   # Pods for CarDrSDK
+
+pod 'Alamofire', '~> 5.6.4'
+pod 'SwiftyJSON', '~> 4.0'
   pod 'RepairClubSDK', :git => 'https://github.com/RRCummins/OBD2Interface.git'
   target 'CarDrSDKTests' do
     # Pods for testing

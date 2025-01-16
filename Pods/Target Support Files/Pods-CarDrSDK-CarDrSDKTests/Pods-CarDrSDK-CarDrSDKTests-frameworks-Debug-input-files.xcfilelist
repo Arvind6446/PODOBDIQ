@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-CarDrSDK-CarDrSDKTests/Pods-CarDrSDK-CarDrSDKTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/RepairClubSDK/RepairClubSDK.framework/RepairClubSDK
