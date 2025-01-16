@@ -15,6 +15,8 @@
 		E275401229F2FE7700774987 /* CarDrSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E275401129F2FE7700774987 /* CarDrSDKTests.swift */; };
 		E275401329F2FE7700774987 /* CarDrSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E275400529F2FE7700774987 /* CarDrSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E275402429F2FF0400774987 /* CarDrConnectionApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E275402329F2FF0400774987 /* CarDrConnectionApi.swift */; };
+		E2A722BF2D39744000B98665 /* RepairClubSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A722BE2D39742600B98665 /* RepairClubSDK.xcframework */; };
+		E2A722C02D39744000B98665 /* RepairClubSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2A722BE2D39742600B98665 /* RepairClubSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,20 @@
 			remoteInfo = CarDrSDK;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2A722C12D39744000B98665 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E2A722C02D39744000B98665 /* RepairClubSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2E7B54F4D391636C0211D574 /* Pods-CarDrSDK-CarDrSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDrSDK-CarDrSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-CarDrSDK-CarDrSDKTests/Pods-CarDrSDK-CarDrSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -41,6 +57,7 @@
 		E275401129F2FE7700774987 /* CarDrSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDrSDKTests.swift; sourceTree = "<group>"; };
 		E275401D29F2FEA900774987 /* VoyoAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VoyoAPI.framework; path = ../../Downloads/VoyoAPI.framework; sourceTree = "<group>"; };
 		E275402329F2FF0400774987 /* CarDrConnectionApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDrConnectionApi.swift; sourceTree = "<group>"; };
+		E2A722BE2D39742600B98665 /* RepairClubSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RepairClubSDK.xcframework; sourceTree = "<group>"; };
 		F0AF94E162A8C7CAC0D67C8F /* Pods-CarDrSDK-CarDrSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDrSDK-CarDrSDKTests.release.xcconfig"; path = "Target Support Files/Pods-CarDrSDK-CarDrSDKTests/Pods-CarDrSDK-CarDrSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D796B42A0F072DC92C67504F /* Pods_CarDrSDK.framework in Frameworks */,
+				E2A722BF2D39744000B98665 /* RepairClubSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +97,7 @@
 		E2753FF829F2FE7700774987 = {
 			isa = PBXGroup;
 			children = (
+				E2A722BE2D39742600B98665 /* RepairClubSDK.xcframework */,
 				E275400429F2FE7700774987 /* CarDrSDK */,
 				E275401029F2FE7700774987 /* CarDrSDKTests */,
 				E275400329F2FE7700774987 /* Products */,
@@ -156,6 +175,7 @@
 				E2753FFE29F2FE7700774987 /* Sources */,
 				E2753FFF29F2FE7700774987 /* Frameworks */,
 				E275400029F2FE7700774987 /* Resources */,
+				E2A722C12D39744000B98665 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -479,7 +499,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -518,7 +538,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

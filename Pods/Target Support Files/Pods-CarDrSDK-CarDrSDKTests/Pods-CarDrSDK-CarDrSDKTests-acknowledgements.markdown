@@ -24,10 +24,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## RepairClubSDK
-
-All rights reserved.
-
 ## SwiftyJSON
 
 The MIT License (MIT)
