@@ -1,0 +1,21 @@
+PODS:
+  - RepairClubSDK (1.2.07)
+
+DEPENDENCIES:
+  - RepairClubSDK (from `https://github.com/RRCummins/OBD2Interface.git`)
+
+EXTERNAL SOURCES:
+  RepairClubSDK:
+    :git: https://github.com/RRCummins/OBD2Interface.git
+
+CHECKOUT OPTIONS:
+  RepairClubSDK:
+    :commit: 83dd0f0173fdcafb0577fbb909f2ea7fb30e4939
+    :git: https://github.com/RRCummins/OBD2Interface.git
+
+SPEC CHECKSUMS:
+  RepairClubSDK: 8cf5604fcd9f8236147f196bb17edd9ba8f34389
+
+PODFILE CHECKSUM: cb8c77ae0f83388206f198e4f5eb3e8ba6d1ecef
+
+COCOAPODS: 1.15.2
