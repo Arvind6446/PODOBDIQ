@@ -55,7 +55,6 @@
 		E275400629F2FE7700774987 /* CarDrSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CarDrSDK.docc; sourceTree = "<group>"; };
 		E275400C29F2FE7700774987 /* CarDrSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarDrSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E275401129F2FE7700774987 /* CarDrSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDrSDKTests.swift; sourceTree = "<group>"; };
-		E275401D29F2FEA900774987 /* VoyoAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VoyoAPI.framework; path = ../../Downloads/VoyoAPI.framework; sourceTree = "<group>"; };
 		E275402329F2FF0400774987 /* CarDrConnectionApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDrConnectionApi.swift; sourceTree = "<group>"; };
 		E2A722BE2D39742600B98665 /* RepairClubSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RepairClubSDK.xcframework; sourceTree = "<group>"; };
 		F0AF94E162A8C7CAC0D67C8F /* Pods-CarDrSDK-CarDrSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDrSDK-CarDrSDKTests.release.xcconfig"; path = "Target Support Files/Pods-CarDrSDK-CarDrSDKTests/Pods-CarDrSDK-CarDrSDKTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,7 +137,6 @@
 		E275401C29F2FEA900774987 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E275401D29F2FEA900774987 /* VoyoAPI.framework */,
 				8045DF8C1CD7F4EB83E13370 /* Pods_CarDrSDK.framework */,
 				C29AC9D716E90DD4A3AAE2EB /* Pods_CarDrSDK_CarDrSDKTests.framework */,
 			);
